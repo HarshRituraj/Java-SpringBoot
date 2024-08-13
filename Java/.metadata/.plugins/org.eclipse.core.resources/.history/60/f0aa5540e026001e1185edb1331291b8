@@ -1,0 +1,27 @@
+package com.example.jioMart.jioMart.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import com.example.jioMart.jioMart.entity.JioMart;
+
+@Repository
+public interface JioMartRepository extends JpaRepository<JioMart, Integer>{
+	
+//	@Query(value = "Select * from jio_mart where name like '%shirt%'",nativeQuery = true)
+	@Query(value = "select J from JioMart J where J.name like %:name%")
+	public List<JioMart> likeProducts(String name);
+	
+	@Query(value = "select J from JioMart J where J.price <= :price")
+	public List<JioMart> filterByPrice(double price);
+	
+	@Query(value = "select J from JioMart J where J.name like %:name% AND J.price <= :price")
+	public List<JioMart> filterByNamePrice(String name, double price);
+	
+	@Query(value = "select J from JioMart J where J.name like %:name% AND J.price <= :price order by J.price ASC")
+	public List<JioMart> sortByPrice(String name, double price);
+
+}

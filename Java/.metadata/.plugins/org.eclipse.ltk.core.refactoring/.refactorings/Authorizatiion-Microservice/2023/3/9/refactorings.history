@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;JwtRequest.java&apos; to &apos;pensionerDetail/src/main/java/com.example.pensionerDetail.model&apos;&#x0D;&#x0A;- Original project: &apos;Authorizatiion-Microservice&apos;&#x0D;&#x0A;- Destination element: &apos;pensionerDetail/src/main/java/com.example.pensionerDetail.model&apos;&#x0D;&#x0A;- Original element: &apos;com.cts.authorization.model.JwtRequest.java&apos;" description="Copy compilation unit" destination="=pensionerDetail/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.pensionerDetail.model" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cts.authorization.model{JwtRequest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1677697918031" units="1" version="1.0"/>
+</session>

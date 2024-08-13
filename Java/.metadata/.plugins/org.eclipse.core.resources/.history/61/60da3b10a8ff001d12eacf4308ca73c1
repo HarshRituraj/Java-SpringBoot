@@ -1,0 +1,20 @@
+package practice;
+
+public class LinkedListReverse {
+
+	public static void main(String[] args) {
+		
+		Node head = null;
+		
+		Node first = new Node();
+		first.setData(10);
+		
+		
+		Node second = new Node();
+		second.setData(20);
+		second.setNext(first);
+		second.setNext(third);
+
+	}
+
+}

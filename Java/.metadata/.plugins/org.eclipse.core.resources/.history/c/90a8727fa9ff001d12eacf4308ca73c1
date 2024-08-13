@@ -1,0 +1,59 @@
+package practice;
+
+public class LinkedListReverse {
+	
+	public static Node reverse(Node head)
+	{
+		if(head == null)
+		{
+			return head;
+		}
+		else
+		{
+			Node temp = head;
+			while(temp != null)
+			{
+				
+			}
+		}
+	}
+	
+	public static void traverse(Node head)
+	{
+		if(head == null)
+		{
+			System.out.println("Linked List is null");
+		}
+		else
+		{
+			while(head != null)
+			{
+				System.out.println(head.getData());
+				head = head.getNext();
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		Node head = null;
+		
+		Node first = new Node();
+		first.setData(10);
+		head = first;
+		
+		
+		Node second = new Node();
+		second.setData(20);
+		first.setNext(second);
+		
+		Node third = new Node();
+		third.setData(30);
+		second.setNext(third);
+		third.setNext(null);
+		
+		traverse(head);
+
+	}
+
+}

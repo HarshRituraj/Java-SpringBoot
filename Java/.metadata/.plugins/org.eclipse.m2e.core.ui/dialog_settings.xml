@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Rituraj\Downloads\dictonary"/>
+			<item value="C:\Users\Rituraj\Downloads\jioMart\jioMart"/>
+			<item value="C:\Users\Rituraj\Downloads\practice (1)\practice"/>
+			<item value="C:\Users\Rituraj\Downloads\practice\practice"/>
+			<item value="C:\Users\Rituraj\Downloads\employeeservice\employeeservice"/>
+			<item value="C:\Users\Rituraj\Downloads\auth"/>
+			<item value="C:\Users\Rituraj\Downloads\Authorization-Microservice"/>
+			<item value="C:\Users\Rituraj\Downloads\sub"/>
+			<item value="C:\Users\Rituraj\Downloads\drugmicroservice"/>
+			<item value="C:\Users\Rituraj\Downloads\playerMicroservice\playerMicroservice"/>
+			<item value="C:\Users\Rituraj\Downloads\playerMicroservice"/>
+			<item value="C:\Users\Rituraj\Downloads\playerService"/>
+			<item value="C:\Users\Rituraj\Desktop\BH Training\Authorization"/>
+			<item value="C:\Users\Rituraj\Downloads\processPension"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

@@ -1,0 +1,14 @@
+package hackerRank.stringIntro;
+
+import java.util.Scanner;
+
+public class StringIntro {
+
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in); 
+		System.out.println("Enter first string");
+		
+		System.out.println("Enter second string");
+	}
+
+}

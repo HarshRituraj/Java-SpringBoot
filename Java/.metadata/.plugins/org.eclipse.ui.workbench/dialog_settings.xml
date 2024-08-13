@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.m2e.core.wizards.Maven2ImportWizard"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.m2e"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Rituraj\Desktop\BH Training\Project\calculator.zip"/>
+			<item value="C:\Users\Rituraj\Desktop\BH Training\Project\practice.zip"/>
+			<item value="C:\Users\Rituraj\Desktop\BH Training\Project\processPension.zip"/>
+			<item value="C:\Users\Rituraj\Desktop\BH Training\Project\pensionerDetail.zip"/>
+			<item value="C:\Users\Rituraj\Desktop\BH Training\Project\PensionDisbursement.zip"/>
+			<item value="C:\Users\Rituraj\Desktop\BH Training\Project\Auth.zip"/>
+			<item value="C:\Users\Rituraj\Desktop\BH Training\Drug.zip"/>
+			<item value="C:\Users\Rituraj\Desktop\BH Training\PensionDisbursement.zip"/>
+			<item value="C:\Users\Rituraj\Desktop\BH Training\processPension.zip"/>
+			<item value="C:\Users\Rituraj\Desktop\BH Training\pensionerDetail.zip"/>
+			<item value="C:\Users\Rituraj\Desktop\BH Training\auth.zip"/>
+			<item value="C:\Users\Rituraj\Desktop\BH Training\player.zip"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+</section>

@@ -1,0 +1,39 @@
+package com.example.practice.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.practice.entity.Worker;
+import com.example.practice.exception.WorkerNotFoundException;
+import com.example.practice.service.WorkersService;
+
+@RestController
+public class WorkersController {
+	
+	@Autowired
+	WorkersService workersService;
+	
+	@GetMapping("/all-workers")
+	public List<Worker> allWorkers()
+	{
+		return workersService.allWorkers();
+	}
+	
+	@GetMapping("/worker-by-id")
+	public Worker workerById(@RequestParam("id") int id) throws WorkerNotFoundException
+	{
+		return workersService.workerById(id);
+	}
+	
+	@PostMapping("/update-worker")
+	public Worker updateWorker(@RequestBody Worker worker) throws WorkerNotFoundException
+	{
+		return workersService.updateWorker(worker);
+	}
+}

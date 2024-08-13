@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.example.dictonary.entity.Word&apos; to &apos;Dictonary&apos;&#x0D;&#x0A;- Original project: &apos;dictonary&apos;&#x0D;&#x0A;- Original element: &apos;com.example.dictonary.entity.Word&apos;&#x0D;&#x0A;- Renamed element: &apos;com.example.dictonary.entity.Dictonary&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Word&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.dictonary.entity{Word.java[Word" matchStrategy="1" name="Dictonary" qualified="false" references="true" similarDeclarations="true" stamp="1696353915401" textual="false" version="1.0"/>
+</session>

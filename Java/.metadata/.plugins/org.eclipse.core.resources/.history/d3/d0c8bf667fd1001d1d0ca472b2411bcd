@@ -1,0 +1,43 @@
+package hackerRank.stringIntro;
+
+import java.util.Scanner;
+
+public class StringIntro {
+
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in); 
+		System.out.println("Enter first string");
+		String str1 = scn.next();
+		System.out.println("Enter second string");
+		String str2 = scn.next();
+		
+		System.out.println(str1.length()+str2.length());
+		str1.charAt(0);
+		int length = str1.length() > str2.length() ? str1.length() : str2.length(); 
+		for(int i = 0; i<length; i++)
+		{
+			if(str1.charAt(i) > str2.charAt(i))
+			{
+				System.out.println("Yes");
+				break;
+			}
+			else if(str1.charAt(i) < str2.charAt(i))
+			{
+				System.out.println("No");
+				break;
+			}
+		}
+		
+		StringBuilder stb1 = new StringBuilder(str1);
+		StringBuilder stb2 = new StringBuilder(str2);
+		StringBuilder str1Index = new StringBuilder(str1.charAt(0));
+		StringBuilder str2Index = new StringBuilder(str2.charAt(0));
+		StringBuilder s1 = new StringBuilder( str1Index.toString().toUpperCase());
+		s2 = str2Index.toString().toUpperCase();
+		stb1.replace(0, 0, str1);
+		stb2.replace(0, 0, str2);
+		System.out.println(stb1 + " "+ stb2);
+		
+	}
+
+}

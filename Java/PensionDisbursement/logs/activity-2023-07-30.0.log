@@ -1,0 +1,37 @@
+2023-07-30_22-29-11 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Starting PensionDisbursementApplication using Java 18.0.2 with PID 7592 (D:\code\Java\PensionDisbursement\target\classes started by Rituraj in D:\code\Java\PensionDisbursement)
+2023-07-30_22-29-11 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-30_22-29-11 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-30_22-29-11 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-30_22-29-11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-30_22-29-11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 0 JPA repository interfaces.
+2023-07-30_22-29-11 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f9a6fc17-50dc-3f72-9156-a65df2514ce5
+2023-07-30_22-29-11 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.example.PensionDisbursement.client.PensionDetailClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-30_22-29-11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-07-30_22-29-11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2023-07-30_22-29-11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-30_22-29-11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-07-30_22-29-11 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-30_22-29-11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8759 ms
+2023-07-30_22-29-11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-07-30_22-29-11 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ac4de920-4616-44f0-bd9a-a8d32fb39008 user=SA
+2023-07-30_22-29-11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-07-30_22-29-11 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ac4de920-4616-44f0-bd9a-a8d32fb39008'
+2023-07-30_22-29-11 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-30_22-29-11 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-07-30_22-29-11 [restartedMain] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-30_22-29-11 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-30_22-29-11 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-30_22-29-11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2023-07-30_22-29-11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2023-07-30_22-29-11 [restartedMain] INFO  c.e.P.PensionDisbursementApplication - Started PensionDisbursementApplication in 21.86 seconds (process running for 26.369)
+2023-07-30_22-29-11 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-30_22-29-11 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-30_22-29-11 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-07-30_22-29-11 [http-nio-8082-exec-1] INFO  c.e.P.c.PensionDisbursementController - START disbursePension
+2023-07-30_22-29-11 [http-nio-8082-exec-1] INFO  c.e.P.s.PensionDisbursementService - START disbursePension
+2023-07-30_22-29-11 [http-nio-8082-exec-1] INFO  c.e.P.s.PensionDisbursementService - END disbursePension
+2023-07-30_22-29-11 [http-nio-8082-exec-2] INFO  c.e.P.c.PensionDisbursementController - START disbursePension
+2023-07-30_22-29-11 [http-nio-8082-exec-2] INFO  c.e.P.s.PensionDisbursementService - START disbursePension
+2023-07-30_22-29-11 [http-nio-8082-exec-3] INFO  c.e.P.c.PensionDisbursementController - START disbursePension
+2023-07-30_22-29-11 [http-nio-8082-exec-3] INFO  c.e.P.s.PensionDisbursementService - START disbursePension
+2023-07-30_22-29-11 [http-nio-8082-exec-3] INFO  c.e.P.s.PensionDisbursementService - END disbursePension

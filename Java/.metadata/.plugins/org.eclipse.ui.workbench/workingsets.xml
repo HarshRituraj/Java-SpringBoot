@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1676834995489_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1676834995535_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1676895323693_3" label="processPension" name="processPension">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/processPension" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1677152386278_4" label="Authorizatiion-Microservice" name="Authorizatiion-Microservice">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Authorizatiion-Microservice" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1677261835369_5" label="playerMicroservice" name="playerMicroservice"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1677949891385_6" label="DrugMicroservice" name="DrugMicroservice"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1678087991131_7" label="subscription" name="subscription"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1678178906083_8" label="AuthorizatiionMicroservice" name="AuthorizatiionMicroservice"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1678466597210_9" label="Authorization" name="Authorization"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1680171743419_10" label="employeeservice" name="employeeservice"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1687617641540_11" label="practice" name="practice">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/practice" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1689696844273_12" label="jioMart" name="jioMart">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jioMart" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1696352894236_13" label="dictonary" name="dictonary">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/dictonary" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1676835006356_2" label="Window Working Set" name="Aggregate for window 1676835006356"/>
+</workingSetManager>
